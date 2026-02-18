@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(54, 10, 112);
+  color: aliceblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.list {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  margin-inline: 8px;
+  color: #eef2f5;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.section1 img {
+  max-width: 700px;
+  width: 100%;
+}
+
+.section1 p {
+  width: 70vh;
+}
+
+.section1 p::first-letter {
+  font-size: 6em;
+  font-family: sans-serif;
+}
+
+.but {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: blue;
+  color: aliceblue;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: -60px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.section2 a {
+  color: #eef2f5;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.section2 a:hover {
+  color: #4a90e2;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.section3 a {
+  color: #eef2f5;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.section3 a:hover {
+  color: #4a90e2;
+}
+.section3 p {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: -30px;
+}
